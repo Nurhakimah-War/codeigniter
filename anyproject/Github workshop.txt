@@ -1,0 +1,45 @@
+GitHub workshop
+starter pack
+
+download CodeIgniter template: http://www.codeigniter.com/download
+register for Github account: https://github.com/
+download git system file: http//git-scm.com/
+username:Nurhakimah-War
+password: ibu6061A
+
+version control system
+centralized version control system - waste more time
+distributed version control system - cut more time
+
+reference:
+http://git-scm.com/doc
+
+branch + commit = version
+
+1st time git setup
+open git shell. and run this command
+
+$ git config --global user.name "Nurhakimah-War"
+$ git config --global user.email nurha.war@gmail.com
+$ git config --list //to check your config listing
+//recommed using the same username and email as Github account
+
+reference http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+modifying content
+commit changes
+$ git status
+
+use any programming tools such as eclipse, java, netbean and etc.
+Git --> php
+new php project
+open code in codeigniter
+
+-a = all modified files; -m = input messages
+
+when see changes, use commit command
+$ git commit -am "second commit"
+
+to drop changes use stash command
+$ git stash
+
